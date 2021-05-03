@@ -1,0 +1,7 @@
+<div class="border rounded  p-3 m-3 shadow-sm">
+    <h4>{{currentNota.titulo}}</h4>
+    <contenido-nota [contenido]="currentNota.contenido"></contenido-nota>
+    <button (click)="eliminarNota()" class="btn btn-danger align-middle ">
+       Eliminar
+    </button>
+</div>
